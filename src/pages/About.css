@@ -1,0 +1,107 @@
+.about-section {
+  max-width: 1100px;
+  margin: 48px auto 0 auto;
+  padding: 48px 24px;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+.about-flex-row {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-content {
+  flex: 2 1 390px;
+  min-width: 260px;
+}
+.about-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1d3557;
+  margin-bottom: 0.3rem;
+}
+.about-subtitle {
+  font-size: 1.13rem;
+  color: #225caa;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+.about-story {
+  color: #29436d;
+  font-size: 1.08rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+.about-facts {
+  margin: 1.3rem 0 1.7rem 0;
+  font-size: 1.03rem;
+  color: #234d77;
+}
+.about-facts ul {
+  list-style: disc;
+  margin-left: 1.3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+.about-facts li {
+  margin-bottom: 0.34em;
+}
+.about-cta {
+  margin-top: 1.7rem;
+}
+.about-cta-btn {
+  display: inline-block;
+  background: #225caa;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border-radius: 0.9em;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 14px #2563eb13;
+  transition: background 0.16s, box-shadow 0.16s;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+.about-cta-btn:hover {
+  background: #1a427a;
+  box-shadow: 0 8px 30px #2563eb19;
+}
+.about-carousel-image-col {
+  flex: 1 1 240px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 210px;
+}
+.about-carousel-image-box {
+  width: 220px;
+  height: 220px;
+  border-radius: 1.3rem;
+  box-shadow: 0 4px 18px 0 #22314a13;
+  overflow: hidden;
+  background: #f3f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1.3rem;
+  transition: opacity 0.8s cubic-bezier(.4,0,.2,1);
+}
+@media (max-width: 900px) {
+  .about-flex-row {
+    flex-direction: column;
+    gap: 2.1rem;
+  }
+  .about-carousel-image-col {
+    margin: 0 auto;
+    margin-top: 2.3rem;
+  }
+}

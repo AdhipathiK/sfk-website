@@ -1,0 +1,49 @@
+.ytIconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ea4335;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2rem;
+  width: 260px;
+  min-width: 180px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 16px 0 rgba(50,70,140,0.13);
+  transition: transform 0.18s cubic-bezier(.4,2,.3,1), box-shadow 0.16s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.ytIconBox:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 32px 0 rgba(233,30,99,0.18);
+  z-index: 1;
+}
+.ytIconFlex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+.ytPlayIcon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  display: block;
+}
+.ytAltText {
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: normal;
+  text-align: left;
+  flex: 1;
+  min-width: 0;
+  /* Truncate if text too long */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

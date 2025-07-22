@@ -1,0 +1,27 @@
+.marquee-container {
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 100%;
+  padding: 2rem 0;
+  position: relative;
+  background: #fff;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* Animation */
+  animation: marquee-scroll 24s linear infinite;
+  will-change: transform;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Move left by 50% (because we doubled content) */
+    transform: translateX(-50%);
+  }
+}

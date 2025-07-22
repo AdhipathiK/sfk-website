@@ -1,0 +1,42 @@
+.footer {
+  background: var(--navy-blue, #14213d);
+  color: var(--white, #fff);
+  padding: 1.7rem 0 1.2rem 0;
+  text-align: center;
+  border-radius: 0 0 18px 18px;
+  margin-top: 3rem;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+  margin-bottom: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: var(--white, #fff);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.08rem;
+  display: flex;
+  align-items: center;
+  gap: 0.46em;
+  transition: color 0.15s;
+}
+
+.links a:hover {
+  color: var(--success-green, #2ec492);
+}
+
+.icon {
+  font-size: 1.18rem;
+  vertical-align: middle;
+}
+
+.copy {
+  color: #bbb;
+  font-size: 0.93rem;
+  margin-top: 0.8rem;
+}
